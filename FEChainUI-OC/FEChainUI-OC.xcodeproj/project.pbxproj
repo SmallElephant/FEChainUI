@@ -19,6 +19,8 @@
 		A84E2B3D1E56ACE5007E8A74 /* FEHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B3B1E56ACE5007E8A74 /* FEHeaderView.m */; };
 		A84E2B401E56C3D5007E8A74 /* CaculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B3F1E56C3D5007E8A74 /* CaculatorManager.m */; };
 		A84E2B411E56C3D5007E8A74 /* CaculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B3F1E56C3D5007E8A74 /* CaculatorManager.m */; };
+		A84E2B451E56D907007E8A74 /* UIButton+FEChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */; };
+		A84E2B461E56D907007E8A74 /* UIButton+FEChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		A84E2B3B1E56ACE5007E8A74 /* FEHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEHeaderView.m; sourceTree = "<group>"; };
 		A84E2B3E1E56C3D5007E8A74 /* CaculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorManager.h; sourceTree = "<group>"; };
 		A84E2B3F1E56C3D5007E8A74 /* CaculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorManager.m; sourceTree = "<group>"; };
+		A84E2B431E56D907007E8A74 /* UIButton+FEChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FEChain.h"; sourceTree = "<group>"; };
+		A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FEChain.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		A84E2ACC1E56AC44007E8A74 /* FEChainUI-OC */ = {
 			isa = PBXGroup;
 			children = (
+				A84E2B421E56D8E0007E8A74 /* Category */,
 				A84E2AD01E56AC44007E8A74 /* AppDelegate.h */,
 				A84E2AD11E56AC44007E8A74 /* AppDelegate.m */,
 				A84E2AD31E56AC44007E8A74 /* ViewController.h */,
@@ -150,6 +155,15 @@
 				A84E2AF41E56AC44007E8A74 /* Info.plist */,
 			);
 			path = "FEChainUI-OCUITests";
+			sourceTree = "<group>";
+		};
+		A84E2B421E56D8E0007E8A74 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A84E2B431E56D907007E8A74 /* UIButton+FEChain.h */,
+				A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84E2B451E56D907007E8A74 /* UIButton+FEChain.m in Sources */,
 				A84E2B3C1E56ACE5007E8A74 /* FEHeaderView.m in Sources */,
 				A84E2AD51E56AC44007E8A74 /* ViewController.m in Sources */,
 				A84E2AD21E56AC44007E8A74 /* AppDelegate.m in Sources */,
@@ -305,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84E2B461E56D907007E8A74 /* UIButton+FEChain.m in Sources */,
 				A84E2B411E56C3D5007E8A74 /* CaculatorManager.m in Sources */,
 				A84E2B3D1E56ACE5007E8A74 /* FEHeaderView.m in Sources */,
 				A84E2AF31E56AC44007E8A74 /* FEChainUI_OCUITests.m in Sources */,

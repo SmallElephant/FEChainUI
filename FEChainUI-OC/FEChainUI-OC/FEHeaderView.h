@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class FEHeaderView;
+
+typedef FEHeaderView *(^FEHeaderBlock)(UIColor *color);
+
+typedef FEHeaderView *(^FEHeaderAssignBlock)(CGFloat num);
+
 @interface FEHeaderView : UIView
+
+
+- (FEHeaderBlock)bgColor;
+
+- (FEHeaderAssignBlock)borderWidth;
+
+- (FEHeaderBlock)borderColor;
 
 @end
