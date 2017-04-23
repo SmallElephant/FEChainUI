@@ -14,6 +14,7 @@
 		A84E2B171E56AC63007E8A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84E2B151E56AC63007E8A74 /* LaunchScreen.storyboard */; };
 		A84E2B221E56AC63007E8A74 /* FEChainUI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B211E56AC63007E8A74 /* FEChainUI_SwiftTests.swift */; };
 		A84E2B2D1E56AC63007E8A74 /* FEChainUI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B2C1E56AC63007E8A74 /* FEChainUI_SwiftUITests.swift */; };
+		C5DB701B1EAC7B510025D51D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DB701A1EAC7B510025D51D /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A84E2B281E56AC63007E8A74 /* FEChainUI-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FEChainUI-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84E2B2C1E56AC63007E8A74 /* FEChainUI_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FEChainUI_SwiftUITests.swift; sourceTree = "<group>"; };
 		A84E2B2E1E56AC63007E8A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB701A1EAC7B510025D51D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A84E2B131E56AC63007E8A74 /* Assets.xcassets */,
 				A84E2B151E56AC63007E8A74 /* LaunchScreen.storyboard */,
 				A84E2B181E56AC63007E8A74 /* Info.plist */,
+				C5DB701A1EAC7B510025D51D /* Extension.swift */,
 			);
 			path = "FEChainUI-Swift";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DB701B1EAC7B510025D51D /* Extension.swift in Sources */,
 				A84E2B0F1E56AC63007E8A74 /* ViewController.swift in Sources */,
 				A84E2B0D1E56AC63007E8A74 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				A84E2B331E56AC63007E8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A84E2B341E56AC63007E8A74 /* Build configuration list for PBXNativeTarget "FEChainUI-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				A84E2B361E56AC63007E8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A84E2B371E56AC63007E8A74 /* Build configuration list for PBXNativeTarget "FEChainUI-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				A84E2B391E56AC63007E8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
