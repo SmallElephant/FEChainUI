@@ -21,6 +21,7 @@
 		A84E2B411E56C3D5007E8A74 /* CaculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B3F1E56C3D5007E8A74 /* CaculatorManager.m */; };
 		A84E2B451E56D907007E8A74 /* UIButton+FEChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */; };
 		A84E2B461E56D907007E8A74 /* UIButton+FEChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */; };
+		C5DB70191EAC73AC0025D51D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB70181EAC73AC0025D51D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		A84E2B3F1E56C3D5007E8A74 /* CaculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorManager.m; sourceTree = "<group>"; };
 		A84E2B431E56D907007E8A74 /* UIButton+FEChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FEChain.h"; sourceTree = "<group>"; };
 		A84E2B441E56D907007E8A74 /* UIButton+FEChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FEChain.m"; sourceTree = "<group>"; };
+		C5DB70171EAC73AC0025D51D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C5DB70181EAC73AC0025D51D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				A84E2B3B1E56ACE5007E8A74 /* FEHeaderView.m */,
 				A84E2B3E1E56C3D5007E8A74 /* CaculatorManager.h */,
 				A84E2B3F1E56C3D5007E8A74 /* CaculatorManager.m */,
+				C5DB70171EAC73AC0025D51D /* DetailViewController.h */,
+				C5DB70181EAC73AC0025D51D /* DetailViewController.m */,
 			);
 			path = "FEChainUI-OC";
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 				A84E2AD21E56AC44007E8A74 /* AppDelegate.m in Sources */,
 				A84E2ACF1E56AC44007E8A74 /* main.m in Sources */,
 				A84E2B401E56C3D5007E8A74 /* CaculatorManager.m in Sources */,
+				C5DB70191EAC73AC0025D51D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +543,7 @@
 				A84E2AF91E56AC44007E8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A84E2AFA1E56AC44007E8A74 /* Build configuration list for PBXNativeTarget "FEChainUI-OCTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +552,7 @@
 				A84E2AFC1E56AC44007E8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A84E2AFD1E56AC44007E8A74 /* Build configuration list for PBXNativeTarget "FEChainUI-OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +561,7 @@
 				A84E2AFF1E56AC44007E8A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

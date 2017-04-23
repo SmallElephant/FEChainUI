@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ABE4B67DD8498FFD296A097A7B13DBE6A2D0E288",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "381624A6079932052393BB8A60F63667414BD0AA" : 9223372036854775807,
+    "ABE4B67DD8498FFD296A097A7B13DBE6A2D0E288" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92E7765A-BA85-426A-A57A-3E5235268C1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "381624A6079932052393BB8A60F63667414BD0AA" : "..",
+    "ABE4B67DD8498FFD296A097A7B13DBE6A2D0E288" : "FEChainUI\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FEChainUI-OC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FEChainUI-OC\/FEChainUI-OC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SmallElephant\/FESwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "381624A6079932052393BB8A60F63667414BD0AA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SmallElephant\/FEChainUI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABE4B67DD8498FFD296A097A7B13DBE6A2D0E288"
+    }
+  ]
+}
