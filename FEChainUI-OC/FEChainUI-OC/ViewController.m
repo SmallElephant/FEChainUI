@@ -84,7 +84,7 @@ typedef void (^FESumBlock4)(NSInteger a,NSInteger b);
     
     view.bgColor([UIColor grayColor]).borderWidth(3.0).borderColor([UIColor redColor]);
     
-    //[self.view addSubview:view];
+    [self.view addSubview:view];
     
     UIButton *button = Button.position(CGRectMake(100, 400, 100, 30)).bgColor([UIColor grayColor]).title(@"Button");
   //  [self.view addSubview:button];
